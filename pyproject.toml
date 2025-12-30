@@ -1,12 +1,13 @@
 [project]
 name = "image-gen"
-version = "0.1.1"
+version = "0.3.0"
 description = "MCP server enabling Image Generation for LLMs, built in Python and integrated with Together AI."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "httpx>=0.28.1",
-    "mcp>=1.1.2",
+    "mcp>=1.25.0",
+    "python-dotenv>=1.0.0",
 ]
 
 [build-system]
